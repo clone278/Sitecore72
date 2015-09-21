@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillageCinemas.Sitecore72.Web", "VillageCinemas.Sitecore72.Web\VillageCinemas.Sitecore72.Web.csproj", "{819EAA25-1E6B-4C46-8356-B473E72E15AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillageCinemas.Sitecore72.Web.Tests", "VillageCinemas.Sitecore72.Web.Tests\VillageCinemas.Sitecore72.Web.Tests.csproj", "{48935782-C9C2-47ED-AE24-98213827801C}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "VillageCinemas.Sitecore72.TDS.Master", "VillageCinemas.Sitecore72.TDS.Master\VillageCinemas.Sitecore72.TDS.Master.scproj", "{D92808EE-FF97-48AC-9CB6-489A53A2FCE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EA6F72AA-46A3-41B3-8913-5B43A8BF889A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{819EAA25-1E6B-4C46-8356-B473E72E15AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819EAA25-1E6B-4C46-8356-B473E72E15AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819EAA25-1E6B-4C46-8356-B473E72E15AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819EAA25-1E6B-4C46-8356-B473E72E15AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48935782-C9C2-47ED-AE24-98213827801C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48935782-C9C2-47ED-AE24-98213827801C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48935782-C9C2-47ED-AE24-98213827801C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48935782-C9C2-47ED-AE24-98213827801C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92808EE-FF97-48AC-9CB6-489A53A2FCE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92808EE-FF97-48AC-9CB6-489A53A2FCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92808EE-FF97-48AC-9CB6-489A53A2FCE0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D92808EE-FF97-48AC-9CB6-489A53A2FCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92808EE-FF97-48AC-9CB6-489A53A2FCE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92808EE-FF97-48AC-9CB6-489A53A2FCE0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
