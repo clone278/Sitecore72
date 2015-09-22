@@ -1,0 +1,99 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@using Sitecore.Web.UI.Controls.Common.Buttons
+@using Sitecore.Web.UI.Controls.Common.DatePickers
+@using Sitecore.Web.UI.Controls.Common.Texts
+@model RenderingModel
+
+<h3>Description</h3>
+<p>As a developer I want to place an DatePicker on my page to a calender functionality to the users.</p>
+
+<h3>Appearance</h3>
+
+<h4>
+  How to create simple DatePickers
+</h4>
+<div style="margin-bottom: 20px;">
+    <p>@Html.Sitecore().Controls().DatePicker("DatePicker1", new {})</p>
+    <p>@Html.Sitecore().Controls().DatePicker("DatePicker2", new { Date = "20001231" })</p>
+    <p>@Html.Sitecore().Controls().DatePicker("DatePicker3", new { Date = "20010911", Format = "mm/yyyy/dd" })</p>
+    <p>@Html.Sitecore().Controls().DatePicker("DatePicker4", new { Date = "20010911T000000", IsEnabled = false })</p>
+    <p>@Html.Sitecore().Controls().DatePicker("DatePicker5", new { Date = "20130314T000000", IsReadOnly = true })</p>
+</div>
+<div>
+  <pre>
+    &#64;Html.Sitecore().Controls().DatePicker("DatePicker1", new {})
+    &#64;Html.Sitecore().Controls().DatePicker("DatePicker2", new { Date = "20001231" })
+    &#64;Html.Sitecore().Controls().DatePicker("DatePicker3", new { Date = "20010911", Format = "mm/yyyy/dd" })
+    &#64;Html.Sitecore().Controls().DatePicker("DatePicker4", new { Date = "20010911T000000", IsEnabled = false })
+    &#64;Html.Sitecore().Controls().DatePicker("DatePicker5", new { Date = "20010911T000000", IsReadOnly = true })
+  </pre>  
+</div>
+
+<p>&nbsp;</p>
+<h4>
+  How to change the date run time
+</h4>
+<div style="margin-bottom: 20px;">
+  <p>@Html.Sitecore().Controls().DatePicker("DatePicker6", new { Date = "20150107" })</p>
+  <p>
+    @Html.Sitecore().Controls().Button("Button1", new { Text = "Set date to 20140307", Click = "javascript:app.DatePicker6.set('date', '20140307');" })
+  </p>
+  <p>
+    Date: @Html.Sitecore().Controls().Text("TextBox1", "", new { Text = "{Binding DatePicker6.date}" })<br />
+    FormattedDate: @Html.Sitecore().Controls().Text("TextBox2", "", new { Text = "{Binding DatePicker6.formattedDate}" })
+  </p>
+</div>
+<div>
+  <pre>
+    &#64;Html.Sitecore().Controls().DatePicker("DatePicker6", new {})
+    &#64;Html.Sitecore().Controls().Button("Button1", new { Text = "Set date to 20140307", Click = "javascript:app.DatePicker6.set('date', '20140307');" })
+    
+    Date: &#64;Html.Sitecore().Controls().Text("TextBox1", "", new { Text = "{Binding DatePicker6.date}" })
+    FormattedDate: &#64;Html.Sitecore().Controls().Text("TextBox2", "", new { Text = "{Binding DatePicker6.formattedDate}" })
+  </pre>  
+</div>
+
+<p>&nbsp;</p>
+<h4>
+  How to change the format run time
+</h4>
+<p>
+  The format can be combinations of the following:
+</p>
+<ul>
+  <li>d - day of month (no leading zero)</li>
+  <li>dd - day of month (two digit)</li>
+  <li>o - day of the year (no leading zeros)</li>
+  <li>oo - day of the year (three digit)</li>
+  <li>D - day name short</li>
+  <li>DD - day name long</li>
+  <li>m - month of year (no leading zero)</li>
+  <li>mm - month of year (two digit)</li>
+  <li>M - month name short</li>
+  <li>MM - month name long</li>
+  <li>yy - year (two digit)</li>
+  <li>yyyy - year (four digit)</li>
+  <li>&#64; - Unix timestamp (ms since 01/01/1970)</li>
+  <li>! - Windows ticks (100ns since 01/01/0001)</li>
+</ul>
+<p>&nbsp;</p>
+<div style="margin-bottom: 20px;">
+  <p>@Html.Sitecore().Controls().DatePicker("DatePicker7", new { Date = "20150107" })</p>
+  <p>
+    @Html.Sitecore().Controls().Button("Button2", new { Text = "Change format to 'DD, d MM, yyyy'", Click = "javascript:app.DatePicker7.viewModel.setDateFormat('DD, d MM, yyyy');" })
+  </p>
+  <p>
+    Date: @Html.Sitecore().Controls().Text("TextBox3", "", new { Text = "{Binding DatePicker7.date}" })<br />
+    FormattedDate: @Html.Sitecore().Controls().Text("TextBox4", "", new { Text = "{Binding DatePicker7.formattedDate}" })
+  </p>
+</div>
+<div>
+  <pre>
+    &#64;Html.Sitecore().Controls().DatePicker("DatePicker7", new {})
+    &#64;Html.Sitecore().Controls().Button("Button2", new { Text = "Change format to 'DD, d/mm/yy'", Click = "javascript:app.DatePicker7.viewModel.setDateFormat('DD, d/mm/yy');" })
+    
+    Date: &#64;Html.Sitecore().Controls().Text("TextBox3", "", new { Text = "{Binding DatePicker7.date}" })
+    FormattedDate: &#64;Html.Sitecore().Controls().Text("TextBox4", "", new { Text = "{Binding DatePicker7.formattedDate}" })
+  </pre>  
+</div>

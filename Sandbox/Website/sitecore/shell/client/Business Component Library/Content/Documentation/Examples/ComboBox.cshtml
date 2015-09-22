@@ -1,0 +1,94 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@using Sitecore.Web.UI.Controls.Common.Buttons
+@using Sitecore.Web.UI.Controls.Common.ComboBoxes
+@using Sitecore.Web.UI.Controls.Common.Texts
+@using Sitecore.Web.UI.Controls.Data.SearchDataSources
+@model RenderingModel
+
+<h3>Adding Items to the ComboBox</h3>
+<p>Static items can be set in the following way:</p>
+@Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to fill ComboBox", Click = "javascript:app.ComboBox0.set('items', items)" })
+@Html.Sitecore().Controls().ComboBox("ComboBox0", new { })
+
+<pre>
+&#64;Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to fill ComboBox", Click = "javascript:app.ComboBox0.set('items', items)" })
+&#64;Html.Sitecore().Controls().ComboBox("ComboBox0",  new {})
+</pre>
+<pre>
+var items = [ 
+  { 
+    $displayName: "First displayName", 
+    itemId: "First itemName" 
+  }, 
+  { 
+    $displayName: "Second displayName",
+    itemId: "Second itemName" 
+  },
+  {
+    $displayName: "Third displayName",
+    itemId: "Third itemName" 
+  } 
+];
+
+</pre>
+<script id="MockDataSource" type="text/javascript">
+  var items = [
+  {
+    $displayName: "First displayName",
+    itemId: "First itemName"
+  },
+  {
+    $displayName: "Second displayName",
+    itemId: "Second itemName"
+  },
+  {
+    $displayName: "Third displayName",
+    itemId: "Third itemName"
+  }
+  ];
+</script>
+<p>
+  Similarly, you can set <code>selectedItem</code> and <code>selectedValue</code> (you also can set the <code>selectedItems</code> but note that this is deprecated):
+</p>
+@Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to set selectedItem", Click = "javascript:app.ComboBox0.set('selectedItem', {$displayName: 'Second displayName', itemId: 'Second itemName'})" })
+@Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to set selectedValue", Click = "javascript:app.ComboBox0.set('selectedValue', 'Third itemName')" })
+
+  <pre>
+&#64;Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to set selectedItem", Click = "javascript:app.ComboBox0.set('selectedItem', {$displayName: 'Second displayName', itemId: 'Second itemName'})" })
+&#64;Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to set selectedValue", Click = "javascript:app.ComboBox0.set('selectedValue', 'Third itemName')" })
+</pre>
+  <p>
+    However, the prefered way to set <code>items</code>, <code>selectedItem</code>, <code>selectedValue</code>, <code>displayFieldName</code> and <code>valueFieldName</code> is using the <code>rebind (items, selectedItem, selectedValue, displayFieldName, valueFieldName)</code> function, any or all of whose parameters may be null. Where both <code>selectedItem</code> and <code>selectedValue</code> are given, <code>selectedItem</code> takes precedence.
+  </p>
+
+@Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to rebind", Click = "javascript:app.ComboBox0.viewModel.rebind( [{$displayName: 'A displayName', itemId: 'itemName'}])" })
+<pre>
+&#64;Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to rebind", Click = "javascript:app.ComboBox0.viewModel.rebind( [{$displayName: 'A displayName', itemId: 'itemName'}])" })
+</pre>
+
+<h3>Using a Data Source</h3>
+<p>
+  The items can be bound to a SearchDataSource.
+</p>
+@Html.Sitecore().Controls().SearchDataSource("DataSource0", new { Database = "master", SearchConfigItemId = "{B0DF45DF-EA31-4C11-9E34-98B41DF549C5}" })
+@Html.Sitecore().Controls().ComboBox("ComboBox1", new { Items = "{Binding DataSource0.items}" })
+
+<pre>
+&#64;Html.Sitecore().Controls().SearchDataSource("DataSource0", new {Database="core", SearchConfigItemId = "{B0DF45DF-EA31-4C11-9E34-98B41DF549C5}" })
+&#64;Html.Sitecore().Controls().ComboBox("ComboBox1",  new { Items = "{Binding DataSource0.items}" })
+</pre>
+
+<h3>Events</h3>
+<p>
+  Selecting an item updates the <code>selectedValue</code> and <code>selectedItem</code> properties (<code>selectedItemId</code> and <code>selectedItems</code> are deprecated).
+</p>
+@Html.Sitecore().Controls().SearchDataSource("DataSource1", new { Text = "Speak" })
+@Html.Sitecore().Controls().ComboBox("ComboBox2", new { Items = "{Binding DataSource1.items}" })
+@Html.Sitecore().Controls().Text("Text1", "Select an option", new { Text = "{Binding ComboBox2.selectedValue}" })
+
+<pre>
+&#64;Html.Sitecore().Controls().SearchDataSource("DataSource1", new { Text = "Speak" })
+&#64;Html.Sitecore().Controls().ComboBox("ComboBox2", new { Items = "{Binding DataSource1.items}" })
+&#64;Html.Sitecore().Controls().Text("Text1", "Select an option", new { Text = "{Binding ComboBox2.selectedValue}" })
+</pre>

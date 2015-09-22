@@ -1,0 +1,99 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@using Sitecore.Web.UI.Controls.Common.Buttons
+@using Sitecore.Web.UI.Controls.Common.ListBoxes
+@using Sitecore.Web.UI.Controls.Common.Texts
+@using Sitecore.Web.UI.Controls.Data.SearchDataSources
+@model RenderingModel
+
+<h3>Adding Items to the ListBox</h3>
+<p>Static items can be set in the following way:</p>
+@Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to fill ListBox", Click = "javascript:app.ListBox0.set('items', items)" })
+@Html.Sitecore().Controls().ListBox("ListBox0",  new { multiple = true})
+
+<pre>
+&#64;Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to fill ListBox", Click = "javascript:app.ListBox0.set('items', items)" })
+&#64;Html.Sitecore().Controls().ListBox("ListBox0",  new { multiple = true})
+</pre>
+<pre>
+var items = [ 
+  { 
+    $displayName: "First displayName", 
+    itemId: "First itemName" 
+  }, 
+  { 
+    $displayName: "Second displayName",
+    itemId: "Second itemName" 
+  },
+  {
+    $displayName: "Third displayName",
+    itemId: "Third itemName" 
+  } 
+];
+
+</pre>
+<script id="MockDataSource" type="text/javascript">
+  var items = [
+  {
+    $displayName: "First displayName",
+    itemId: "First itemName"
+  },
+  {
+    $displayName: "Second displayName",
+    itemId: "Second itemName"
+  },
+  {
+    $displayName: "Third displayName",
+    itemId: "Third itemName"
+  }
+  ];
+</script>
+<p>
+  Similarly, you can set <code>selectedItem</code>, <code>selectedValue</code>, <code>selectedItems</code> and  <code>selectedValues</code>:
+</p>
+@Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to set selectedItem", Click = "javascript:app.ListBox0.set('selectedItem', {$displayName: 'Second displayName', itemId: 'Second itemName'})" })
+@Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to set selectedValues", Click = "javascript:app.ListBox0.set('selectedValues', ['First itemName', 'Third itemName'])" })
+<p>
+<pre>
+&#64;Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to set selectedItem", Click = "javascript:app.ListBox0.set('selectedItem', {$displayName: 'Second displayName', itemId: 'Second itemName'})" })
+&#64;Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to set selectedValue", Click = "javascript:app.ListBox0.set('selectedValues', ['First itemName', 'Third itemName'])" })
+</pre>
+  <p>
+  However, the prefered way to set <code>items</code>, <code>selectedItem</code>, <code>selectedValue</code>, <code>displayFieldName</code>, <code>valueFieldName</code>, <code>selectedItems</code> and <code>selectedValues</code> is using the <code>rebind (items, selectedItem, selectedValue, displayFieldName, valueFieldName, selectedItems, selectedValues)</code> function, any or all of whose parameters may be null. The order of precedence is <code>selectedItems</code> > <code>selectedValues</code> > <code>selectedItem</code> > <code>selectedValue</code>.
+  </p>
+
+</p>
+@Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to rebind", Click = "javascript:app.ListBox0.viewModel.rebind( [{$displayName: 'A displayName', itemId: 'itemName'}])" })
+<pre>
+&#64;Html.Sitecore().Controls().Button("Button1", new { Text = "Click Me to rebind", Click = "javascript:app.ListBox0.viewModel.rebind( [{$displayName: 'A displayName', itemId: 'itemName'}])" })
+</pre>
+
+  <h3>Using a Data Source</h3>
+  <p>
+    The items can be specified using a data source.
+  </p>
+  @Html.Sitecore().Controls().SearchDataSource("DataSource0", new {Database="master", SearchConfigItemId = "{B0DF45DF-EA31-4C11-9E34-98B41DF549C5}" })
+  @Html.Sitecore().Controls().ListBox("ListBox1",  new { Items = "{Binding DataSource0.items}" })
+</p>
+
+<pre>
+&#64;Html.Sitecore().Controls().SearchDataSource("DataSource0", new {Database="core", SearchConfigItemId = "{B0DF45DF-EA31-4C11-9E34-98B41DF549C5}" })
+&#64;Html.Sitecore().Controls().ListBox("ListBox1",  new { Items = "{Binding DataSource0.items}" })
+</pre>
+
+<h3>Events</h3>
+<p>
+  Selecting an item updates the <code>selectedValue</code>, <code>selectedItem</code>, <code>selectedValues</code> and <code>selectedItems</code> properties (<code>selectedItemId</code> and <code>selectedItemIds</code> are deprecated).
+</p>
+@Html.Sitecore().Controls().SearchDataSource("DataSource1", new { Text = "Speak" })
+@Html.Sitecore().Controls().ListBox("ListBox2", new { Items = "{Binding DataSource1.items}" })
+@Html.Sitecore().Controls().Text("Text1", "Select an option", new { Text = "{Binding ListBox2.selectedValue}" })
+
+<pre>
+&#64;Html.Sitecore().Controls().SearchDataSource("DataSource1", new { Text = "Speak" })
+&#64;Html.Sitecore().Controls().ListBox("ListBox2", new { Items = "{Binding DataSource1.items}" })
+&#64;Html.Sitecore().Controls().Text("Text1", "Select an option", new { Text = "{Binding ListBox2.selectedValue}" })
+</pre>
+
+
+

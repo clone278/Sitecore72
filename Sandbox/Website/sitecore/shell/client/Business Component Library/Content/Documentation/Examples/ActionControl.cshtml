@@ -1,0 +1,168 @@
+﻿@using Sitecore.Data
+@using Sitecore.Mvc
+@using Sitecore.Web.UI.Controls.Common.Buttons
+@using Sitecore.Web.UI.Controls.Common.Renderings
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+  var rendering = new ID("{C2FAF554-1419-4B6E-96B8-EC7DB6995B3C}").ToString();
+}       
+<script type="text/javascript">
+
+  function newPopup(url) {    
+    window.open(url, 'anyname', 'height=700');
+  }
+</script>
+
+<h3>Description</h3>
+<p>As a developer I want to place an Action Control on my page to provide menu items and customization to users.</p>               
+<p>
+  The Action Control has 3 elements.
+</p>
+<ul>
+  <li>Button</li>
+  <li>Panel</li>
+  <li>Favorites</li>
+</ul>
+<p>
+  The control does not support added actions on-the-fly. This is because the Panel element can only be rendered on the server (it is very complex).
+  Favorites are stored in the browsers local storage – not in the Sitecore User Profile. This is to minimize communication with the server.
+</p>
+<p>
+  It's essential to set appropriate items structure and set the parent as datasource. <b>ActionControl(top parent - should be set as datasource) > ActionColumn > ActionGroup > Action.</b>
+</p>
+
+<h3>Apperance</h3>
+<p>
+  Simple action control with no wrapper positioning.
+</p>
+<p>
+  @this.Html.Sitecore().Controls().Rendering(this.Html, rendering, "ActionControl1", "{6DD56E1F-6860-442D-AEB5-DA2014744972}", new
+  {
+    Text = "Actions"
+  })
+</p>
+<pre>
+  &#64;this.Html.Sitecore().Controls().Rendering(this.Html, rendering, "ActionControl1", "{6DD56E1F-6860-442D-AEB5-DA2014744972}", new
+  {
+    Text = "Actions"
+  })
+</pre>
+
+<p>
+  Simple action control with wrapper set to " float:right".
+</p>
+<div style="padding-bottom: 30px;">
+<div style="float:right;">
+  @this.Html.Sitecore().Controls().Rendering(this.Html, rendering, "ActionControl2", "{6DD56E1F-6860-442D-AEB5-DA2014744972}", new
+  {
+    Text = "Actions"
+  })
+</div>
+  
+</div>
+<pre>
+&lt;div style="float:right;"&gt;
+  &#64;this.Html.Sitecore().Controls().Rendering(this.Html, rendering, "ActionControl2", "{6DD56E1F-6860-442D-AEB5-DA2014744972}", new
+  {
+    Text = "Actions"
+  })
+&lt;/div&gt;
+</pre>
+
+<h4>Favourite actions status.</h4>
+<p>
+  Whenever the user changes the favorite configuration on an ActionControl, this status is saved on the server UserProfile data.<br/>
+  This status is then reloaded and applied to the same control on a new page load.
+  Each action item can have a default Favorite configuration, which is overridden by the user choices to add/remove the action from it's favorites.
+</p>
+
+<h4>Open action link in new window:</h4>
+<p>
+  In order to open the link associated to an Action into a new browser window,
+  the Action.Click field has to be set to a Javascript function which calls the window.open specifying a target different from
+  "_blank", "_parent", "_self", "_top"  and with at least 1 window attribute (i.e.:  'height=700').
+
+  In this example the "New" action click field has been set to:
+  <pre>javascript:newPopup('http://www.w3schools.com');</pre>
+  
+  Where the newPopup javascript function is defined in the razor file as:
+  <pre>
+  function newPopup(url) {
+    window.open(url, 'anyname', 'height=700');
+  }
+  </pre>
+  
+  In case the JS function was defined in the the Speak PageCode script then the Action.Click field should be set as:
+  <pre>javascript:app.newPopup('http://www.w3schools.com');</pre>
+
+</p>
+
+<h4>Enable and Disable individual actions</h4>
+<p>
+  This can be set on an Action.item, by checking the Disable checkbox, or it can be set programatically as described below.
+</p>
+
+<h5>
+  Demo ActionControl
+</h5>
+<div style="margin-bottom: 20px;">
+  @this.Html.Sitecore().Controls().Rendering(this.Html, rendering, "ActionControl3", "{6DD56E1F-6860-442D-AEB5-DA2014744972}", new
+  {
+    Text = "Actions"
+  })
+</div>
+
+<p>
+  Using the actions array on the View.
+</p>
+<div style="padding-bottom: 10px;">
+  @this.Html.Sitecore().Controls().Button("Button1", new
+{
+  Click = "javascript:app.ActionControl3.viewModel.actions()[0].enable()",
+  Text = "Enable"
+})
+    @this.Html.Sitecore().Controls().Button("Button2", new
+{
+  Click = "javascript:app.ActionControl3.viewModel.actions()[0].disable()",
+  Text = "Disable"
+})
+</div>
+<pre style="margin-bottom: 20px;">
+  &#64;this.Html.Sitecore().Controls().Button("Button1", new
+  {
+    Click = "javascript:app.ActionControl3.viewModel.actions()[0].enable()",
+    Text = "Enable"
+  })
+  &#64;this.Html.Sitecore().Controls().Button("Button2", new
+  {
+    Click = "javascript:app.ActionControl3.viewModel.actions()[0].disable()",
+    Text = "Disable"
+  })
+</pre>
+<p>
+  Using the getAction method on the View.
+</p>
+<div style="padding-bottom: 10px;">
+  @this.Html.Sitecore().Controls().Button("Button3", new
+  {
+    Click = "javascript:app.ActionControl3.viewModel.getAction('[data-sc-actionid=\"0D8D20648ED8408283316A10D980A9B6\"]\').enable()",
+    Text = "Enable"
+  })
+  @this.Html.Sitecore().Controls().Button("Button4", new
+  {
+    Click = "javascript:app.ActionControl3.viewModel.getAction('[data-sc-actionid=\"0D8D20648ED8408283316A10D980A9B6\"]\').disable()",
+    Text = "Disable"
+  })
+</div>
+<pre style="margin-bottom: 20px;">
+   &#64;this.Html.Sitecore().Controls().Button("Button3", new
+  {
+    Click = "javascript:app.ActionControl3.viewModel.getAction('[data-sc-actionid=\"0D8D20648ED8408283316A10D980A9B6\"]\').enable()",
+    Text = "Enable"
+  })
+   &#64;this.Html.Sitecore().Controls().Button("Button4", new
+  {
+    Click = "javascript:app.ActionControl3.viewModel.getAction('[data-sc-actionid=\"0D8D20648ED8408283316A10D980A9B6\"]\').disable()",
+    Text = "Disable"
+  })
+</pre>

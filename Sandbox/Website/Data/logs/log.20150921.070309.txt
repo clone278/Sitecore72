@@ -1,0 +1,738 @@
+﻿2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 INFO  HttpModule is being initialized
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 INFO  
+2928 07:03:09 INFO  **********************************************************************
+2928 07:03:09 INFO  **********************************************************************
+2928 07:03:09 INFO  Sitecore started
+2928 07:03:09 INFO  Sitecore.NET 7.2 (rev. 140526)
+2928 07:03:09 INFO  
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\componentart.web.ui.dll ()
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\ecmascript.net.modified.dll (Modified version of the EcmaScript.NET assembly)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\htmlagilitypack.dll (Html Agility Pack, 1.4.6.0)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\ithit.webdav.server.dll (WebDav Server .Net v2, IT Hit WebDAV Server .Net v2)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.contrib.analyzers.dll (Lucene.Net.Contrib.Analyzers)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.contrib.core.dll (Lucene.Net.Contrib.Core, Contributions to the Lucene.Net core library)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.contrib.fastvectorhighlighter.dll (Lucene.Net.Contrib.FastVectorHighlighter, FastVectorHighlighter for Lucene.Net)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.contrib.highlighter.dll (Lucene.Net.Contrib.Highlighter, The Apache Software Foundation Lucene.Net a full-text search engine library, 2.3.2)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.contrib.memory.dll (Contrib.Memory)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.contrib.queries.dll (Lucene.Net.Contrib.Queries)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.contrib.regex.dll (Lucene.Net.Contrib.Regex)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.contrib.simplefacetedsearch.dll (Lucene.Net.SimpleFacetedSearch, SimpleFacetedSearch for Lucene.Net)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.contrib.snowball.dll (Lucene.Net.Contrib.Snowball, The Apache Software Foundation Lucene.Net a full-text search engine library, 2.0)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.contrib.spellchecker.dll (SpellChecker.Net, The Apache Software Foundation Lucene.Net a full-text search engine library, 3.0.3)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\lucene.net.dll (Lucene.Net, The Apache Software Foundation Lucene.Net a full-text search engine library, 3.0.3)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\microsoft.web.infrastructure.dll (Microsoft ASP.Net WebPages)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\mvp.xml.dll (MVP XML Library)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\newtonsoft.json.dll (Json.NET, Json.NET is a popular high-performance JSON framework for .NET)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\radeditor.net2.dll (RadEditor, Telerik RadEditor)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.analytics.dll (Sitecore DMS, Sitecore Digital Marketing System, 7.2 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.analytics.robotdetection.dll (Sitecore Robot Detection, 1.0.0 rev. 140507)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.apps.loader.dll (Sitecore.Apps.Loader, 1.0.0 rev. 130822)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.automation.marketingautomation.dll (Sitecore EAS, Sitecore Engagement Automation Suite, 7.2 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.buckets.client.dll (Sitecore Buckets, The assembly can be used to have Sitecore queries driven via a query, 1.0.0 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.buckets.dll (Sitecore Buckets, The assembly can be used to have Sitecore queries driven via search providers, 1.0.0 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.client.dll (Sitecore CMS, Sitecore Client Application, 7.2 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.contentsearch.client.dll (Sitecore Buckets, 1.0.0 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.contentsearch.dll (Sitecore Buckets, Sitecore CMS Search, 1.0.0 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.contentsearch.linq.dll (Sitecore Buckets, 1.0.0 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.contentsearch.linq.lucene.dll (Sitecore Buckets, 1.0.0 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.contentsearch.luceneprovider.dll (Sitecore Buckets, Sitecore CMS Search, 1.0.0 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.itemwebapi.dll (Sitecore Item Web API, 1.2.0 rev. 140508)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.kernel.dll (Sitecore CMS, Sitecore CMS Kernel Library, 7.2 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.logging.dll (Sitecore CMS, Sitecore Logging Framework, 6.6.0 rev. 120918)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.mvc.analytics.dll (Sitecore Mvc Analytics 1.0.0, 1.0.0 rev. 140224)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.mvc.devicesimulator.dll (Sitecore Mvc Device Simulators 1.0.0, 1.0.0 rev. 140225)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.mvc.dll (Sitecore Mvc 1.0.0, 1.0.0 rev. 140411)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.mvc.experienceeditor.dll (Sitecore Mvc Experience Editor 1.0.0, 1.0.0 rev. 140225)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.nexus.dll (Sitecore.Nexus)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.nvelocity.dll (Sitecore CMS, Sitecore Macro Expansion Library, 6.6.0 rev. 120918)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.oracle.dll (Sitecore CMS, Oracle Data Provider for Sitecore, 7.2 rev. 140526)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.publishing.webdeploy.dll (Sitecore CMS, Sitecore publishing infrastructure based on Web Deployment Tool, 1.0.0 rev. 090323)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.security.anticsrf.dll (Sitecore AntiCSRF Module 1.0.0, 1.0.0 rev. 140205)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.segmentbuilder.dll (Sitecore Segment Builder 1.0.0, 1.0.0 rev. 140312)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.shell.marketingautomation.dll (Sitecore Engagement Automation Suite 1.0.0, 1.0.0 rev. 140307)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.speak.charting.dll (Sitecore Speak Charting, 1.0.0 rev. 140305)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.speak.client.dll (Sitecore Speak.Dev, 1.1.2 rev. 140521)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.speak.dialogs.dll (Sitecore Speak.Dev, 1.1.2 rev. 140521)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.speak.itemwebapi.dll (Sitecore Speak.Dev, 1.1.2 rev. 140521)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.speak.mvc.dll (Sitecore Speak.Dev, 1.1.2 rev. 140521)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.speak.web.dll (Sitecore Speak.Dev, 1.1.2 rev. 140521)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.update.dll (Sitecore Update Installation Wizard, 1.0.0 rev. 140225)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\sitecore.zip.dll (Sitecore CMS, ZIP support for Sitecore, 7.0.0)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\stimulsoft.base.dll (Stimulsoft Reports, Stimulsoft Base)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\stimulsoft.database.dll (Stimulsoft Reports, Stimulsoft Reports Database Helper)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\stimulsoft.report.dll (Stimulsoft Reports, Stimulsoft Reports Engine)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\stimulsoft.report.web.dll (Stimulsoft Reports.Web, Stimulsoft Reports.Web Viewer)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\stimulsoft.report.webdesign.dll (Stimulsoft Reports Designer.Web, Stimulsoft Reports Designer.Web)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\system.web.helpers.dll (Microsoft ASP.NET Web Pages, 3.0.1-20129 (54866f0d3262d0fccfc2cb463f003459fcabd6c8))
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\system.web.mvc.dll (Microsoft ASP.NET MVC, System.Web.Mvc.dll, 5.1.1-20129 (54866f0d3262d0fccfc2cb463f003459fcabd6c8))
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\system.web.razor.dll (Microsoft ASP.NET Web Pages, 3.0.1-20129 (54866f0d3262d0fccfc2cb463f003459fcabd6c8))
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\system.web.webpages.deployment.dll (Microsoft ASP.NET Web Pages, 3.0.1-20129 (54866f0d3262d0fccfc2cb463f003459fcabd6c8))
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\system.web.webpages.dll (Microsoft ASP.NET Web Pages, 3.0.1-20129 (54866f0d3262d0fccfc2cb463f003459fcabd6c8))
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\system.web.webpages.razor.dll (Microsoft ASP.NET Web Pages, 3.0.1-20129 (54866f0d3262d0fccfc2cb463f003459fcabd6c8))
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\telerik.web.ui.dll (Telerik.Web.UI, Telerik RadControls for ASP.NET Ajax)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\telerik.web.ui.skins.dll (Telerik RadControls for ASP.NET Ajax Skins)
+2928 07:03:09 INFO  c:\source\sitecore72\main\villagecinemas.sitecore72\sandbox\website\bin\yahoo.yui.compressor.dll (YUI Compressor, A .NET port of the Yahoo! YUI Compressor project)
+2928 07:03:09 INFO  
+2928 07:03:09 INFO  Operating system Microsoft Windows NT 6.3.9600.0
+2928 07:03:09 INFO  
+2928 07:03:09 INFO  Microsoft.NET version 4.0.30319.34209
+2928 07:03:09 INFO  
+2928 07:03:09 INFO  UTC offset: 00:00:00
+2928 07:03:09 INFO  Machine name: ip-0A0F839F
+2928 07:03:09 INFO  App pool ID: dev.sitecore72.local
+2928 07:03:09 INFO  
+2928 07:03:09 INFO  Process ID: 3968
+2928 07:03:09 INFO  Windows identity used by the process: IIS APPPOOL\dev.sitecore72.local. Impersonation: False
+2928 07:03:09 INFO  Managed pipeline mode: Integrated
+2928 07:03:09 INFO  
+2928 07:03:09 INFO  EventQueues enabled: True
+2928 07:03:09 INFO  Instance Name:IP-0A0F839F-dev.sitecore72.local
+2928 07:03:09 INFO  
+2928 07:03:09 INFO  Threshold settings
+2928 07:03:09 INFO    Show threshold warnings: False
+2928 07:03:09 INFO  
+2928 07:03:09 INFO  Databases
+2928 07:03:09 INFO    core
+2928 07:03:09 INFO    master
+2928 07:03:09 INFO    web
+2928 07:03:09 INFO    filesystem
+2928 07:03:09 INFO  
+2928 07:03:09 INFO  Domains
+2928 07:03:09 INFO  Heartbeat - Initializing
+2928 07:03:09 INFO  Heartbeat - Interval set to: 00:00:02
+2928 07:03:09 INFO  Heartbeat - Worker thread started
+2928 07:03:09 INFO  Trying to load XML configuration /App_Config/Security/Domains.config
+2928 07:03:09 INFO    sitecore
+2928 07:03:09 INFO    extranet
+2928 07:03:09 INFO    default
+2928 07:03:09 INFO  **********************************************************************
+2928 07:03:09 INFO  **********************************************************************
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 INFO  Attempting to get ASP.NET process history
+2928 07:03:09 WARN  No process history available
+2928 07:03:09 INFO  Cache created: 'LanguageProvider - Languages' (max size: 100KB, running total: 100KB)
+2928 07:03:09 INFO  Cache created: 'DeviceItemsCache' (max size: 10MB, running total: 10MB)
+2928 07:03:09 INFO  Cache created: 'core[data]' (max size: 20MB, running total: 30MB)
+2928 07:03:09 INFO  Cache created: 'core[items]' (max size: 10MB, running total: 40MB)
+2928 07:03:09 INFO  Cache created: 'core[paths]' (max size: 500KB, running total: 40MB)
+2928 07:03:09 INFO  Cache created: 'core[standardValues]' (max size: 500KB, running total: 41MB)
+2928 07:03:09 INFO  Cache created: 'core[itempaths]' (max size: 10MB, running total: 51MB)
+2928 07:03:09 INFO  Cache created: 'core[blobIDs]' (max size: 500KB, running total: 51MB)
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 INFO  Cache created: 'master[data]' (max size: 20MB, running total: 71MB)
+2928 07:03:09 INFO  Cache created: 'master[items]' (max size: 10MB, running total: 81MB)
+2928 07:03:09 INFO  Cache created: 'master[paths]' (max size: 500KB, running total: 82MB)
+2928 07:03:09 INFO  Cache created: 'master[standardValues]' (max size: 500KB, running total: 82MB)
+2928 07:03:09 INFO  Cache created: 'master[itempaths]' (max size: 10MB, running total: 92MB)
+2928 07:03:09 INFO  Cache created: 'master[blobIDs]' (max size: 500KB, running total: 93MB)
+2928 07:03:09 INFO  Cache created: 'web[data]' (max size: 20MB, running total: 113MB)
+2928 07:03:09 INFO  Cache created: 'web[items]' (max size: 10MB, running total: 123MB)
+2928 07:03:09 INFO  Cache created: 'web[paths]' (max size: 500KB, running total: 123MB)
+2928 07:03:09 INFO  Cache created: 'web[standardValues]' (max size: 500KB, running total: 124MB)
+2928 07:03:09 INFO  Cache created: 'web[itempaths]' (max size: 10MB, running total: 134MB)
+2928 07:03:09 INFO  Cache created: 'web[blobIDs]' (max size: 500KB, running total: 134MB)
+2928 07:03:09 INFO  Cache created: 'filesystem[data]' (max size: 0 bytes, running total: 134MB)
+2928 07:03:09 INFO  Cache created: 'filesystem[items]' (max size: 0 bytes, running total: 134MB)
+2928 07:03:09 INFO  Cache created: 'filesystem[paths]' (max size: 0 bytes, running total: 134MB)
+2928 07:03:09 INFO  Cache created: 'filesystem[standardValues]' (max size: 0 bytes, running total: 134MB)
+2928 07:03:09 INFO  Cache created: 'filesystem[itempaths]' (max size: 10MB, running total: 144MB)
+2928 07:03:09 INFO  Cache created: 'filesystem[blobIDs]' (max size: 500KB, running total: 144MB)
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:10 INFO  Cache created: 'SqlDataProvider - Prefetch data(core)' (max size: 10MB, running total: 154MB)
+2928 07:03:10 INFO  Cache created: 'ItemCloningRelations' (max size: 10MB, running total: 164MB)
+2928 07:03:11 INFO  Cache created: 'AccessResultCache' (max size: 2MB, running total: 166MB)
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:11 INFO  Cache created: 'ProxyProvider' (max size: 500KB, running total: 167MB)
+2928 07:03:11 INFO  Loading Dictionary from database. Domain: 'Dictionary'. Language: 'en'.
+ManagedPoolThread #1 07:03:11 INFO  Trying to load XML configuration /App_Config/Security/Domains.config
+2928 07:03:13 INFO  Cache created: 'clientData' (max size: 5MB, running total: 172MB)
+2928 07:03:13 INFO  Cache created: 'UserProfileCache' (max size: 1MB, running total: 173MB)
+Heartbeat 07:03:13 INFO  Cache created: 'SqlDataProvider - Property data(core)' (max size: 500KB, running total: 173MB)
+Heartbeat 07:03:13 INFO  Cache created: 'SqlDataProvider - Property data(master)' (max size: 500KB, running total: 174MB)
+Heartbeat 07:03:13 INFO  Cache created: 'SqlDataProvider - Property data(web)' (max size: 500KB, running total: 174MB)
+Heartbeat 07:03:15 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2928 07:03:16 INFO  MemoryMonitor initialized. Threshold: 800 MB. Interval: 00:00:05
+2928 07:03:16 INFO  Cache created: '[FieldReaderCache]' (max size: 5MB, running total: 179MB)
+2928 07:03:17 INFO  Scheduler - Initializing
+2928 07:03:17 INFO  Scheduler - Interval set to: 00:00:05
+2928 07:03:17 INFO  Scheduler - Worker thread started
+3644 07:03:17 INFO  HttpModule is being initialized
+3644 07:03:17 INFO  Cache created: 'shell[html]' (max size: 0 bytes, running total: 179MB)
+3644 07:03:17 INFO  Cache created: 'shell[registry]' (max size: 3MB, running total: 182MB)
+3644 07:03:17 INFO  Cache created: 'shell[viewstate]' (max size: 200KB, running total: 183MB)
+3644 07:03:17 INFO  Cache created: 'shell[xsl]' (max size: 5MB, running total: 188MB)
+3644 07:03:17 INFO  Cache created: 'shell[filtered items]' (max size: 2MB, running total: 190MB)
+3644 07:03:17 INFO  Cache created: 'login[html]' (max size: 0 bytes, running total: 190MB)
+3644 07:03:17 INFO  Cache created: 'login[registry]' (max size: 5MB, running total: 195MB)
+3644 07:03:17 INFO  Cache created: 'login[viewstate]' (max size: 5MB, running total: 200MB)
+3644 07:03:17 INFO  Cache created: 'login[xsl]' (max size: 10MB, running total: 210MB)
+3644 07:03:17 INFO  Cache created: 'login[filtered items]' (max size: 2MB, running total: 212MB)
+3644 07:03:17 INFO  Cache created: 'admin[html]' (max size: 0 bytes, running total: 212MB)
+3644 07:03:17 INFO  Cache created: 'admin[registry]' (max size: 5MB, running total: 217MB)
+3644 07:03:17 INFO  Cache created: 'admin[viewstate]' (max size: 5MB, running total: 222MB)
+3644 07:03:17 INFO  Cache created: 'admin[xsl]' (max size: 10MB, running total: 232MB)
+3644 07:03:17 INFO  Cache created: 'admin[filtered items]' (max size: 2MB, running total: 234MB)
+3644 07:03:17 INFO  Cache created: 'service[html]' (max size: 0 bytes, running total: 234MB)
+3644 07:03:17 INFO  Cache created: 'service[registry]' (max size: 5MB, running total: 239MB)
+3644 07:03:17 INFO  Cache created: 'service[viewstate]' (max size: 5MB, running total: 244MB)
+3644 07:03:17 INFO  Cache created: 'service[xsl]' (max size: 10MB, running total: 254MB)
+3644 07:03:17 INFO  Cache created: 'service[filtered items]' (max size: 2MB, running total: 256MB)
+3644 07:03:17 INFO  Cache created: 'modules_shell[html]' (max size: 0 bytes, running total: 256MB)
+3644 07:03:17 INFO  Cache created: 'modules_shell[registry]' (max size: 5MB, running total: 261MB)
+3644 07:03:17 INFO  Cache created: 'modules_shell[viewstate]' (max size: 5MB, running total: 266MB)
+3644 07:03:17 INFO  Cache created: 'modules_shell[xsl]' (max size: 10MB, running total: 276MB)
+3644 07:03:17 INFO  Cache created: 'modules_shell[filtered items]' (max size: 2MB, running total: 278MB)
+3644 07:03:17 INFO  Cache created: 'modules_website[html]' (max size: 5MB, running total: 283MB)
+3644 07:03:17 INFO  Cache created: 'modules_website[registry]' (max size: 5MB, running total: 288MB)
+3644 07:03:17 INFO  Cache created: 'modules_website[viewstate]' (max size: 5MB, running total: 293MB)
+3644 07:03:17 INFO  Cache created: 'modules_website[xsl]' (max size: 10MB, running total: 303MB)
+3644 07:03:17 INFO  Cache created: 'modules_website[filtered items]' (max size: 2MB, running total: 305MB)
+3644 07:03:17 INFO  Cache created: 'website[html]' (max size: 10MB, running total: 315MB)
+3644 07:03:17 INFO  Cache created: 'website[registry]' (max size: 0 bytes, running total: 315MB)
+3644 07:03:17 INFO  Cache created: 'website[viewstate]' (max size: 0 bytes, running total: 315MB)
+3644 07:03:17 INFO  Cache created: 'website[xsl]' (max size: 5MB, running total: 320MB)
+3644 07:03:17 INFO  Cache created: 'website[filtered items]' (max size: 2MB, running total: 322MB)
+3644 07:03:17 INFO  Cache created: 'scheduler[html]' (max size: 0 bytes, running total: 322MB)
+3644 07:03:17 INFO  Cache created: 'scheduler[registry]' (max size: 5MB, running total: 327MB)
+3644 07:03:17 INFO  Cache created: 'scheduler[viewstate]' (max size: 5MB, running total: 332MB)
+3644 07:03:17 INFO  Cache created: 'scheduler[xsl]' (max size: 10MB, running total: 342MB)
+3644 07:03:17 INFO  Cache created: 'scheduler[filtered items]' (max size: 2MB, running total: 344MB)
+3644 07:03:17 INFO  Cache created: 'system[html]' (max size: 0 bytes, running total: 344MB)
+3644 07:03:17 INFO  Cache created: 'system[registry]' (max size: 5MB, running total: 349MB)
+3644 07:03:17 INFO  Cache created: 'system[viewstate]' (max size: 5MB, running total: 354MB)
+3644 07:03:17 INFO  Cache created: 'system[xsl]' (max size: 10MB, running total: 364MB)
+3644 07:03:17 INFO  Cache created: 'system[filtered items]' (max size: 2MB, running total: 366MB)
+3644 07:03:17 INFO  Cache created: 'publisher[html]' (max size: 0 bytes, running total: 366MB)
+3644 07:03:17 INFO  Cache created: 'publisher[registry]' (max size: 5MB, running total: 371MB)
+3644 07:03:17 INFO  Cache created: 'publisher[viewstate]' (max size: 5MB, running total: 376MB)
+3644 07:03:17 INFO  Cache created: 'publisher[xsl]' (max size: 10MB, running total: 386MB)
+3644 07:03:17 INFO  Cache created: 'publisher[filtered items]' (max size: 2MB, running total: 388MB)
+3644 07:03:17 INFO  Cache created: 'IsUserInRoleCache' (max size: 1MB, running total: 389MB)
+3644 07:03:17 INFO  Trying to load XML configuration /App_Config/Security/GlobalRoles.config
+3644 07:03:18 INFO  Cache created: 'SqlDataProvider - Prefetch data(web)' (max size: 10MB, running total: 399MB)
+3644 07:03:19 INFO  Cache created: 'rules' (max size: 800KB, running total: 399MB)
+3644 07:03:19 WARN  Sitecore has no necessary permissions for reading/creating counters.
+3644 07:03:19 WARN  Sitecore has no necessary permissions for reading/creating counters.
+3644 07:03:19 WARN  Sitecore has no necessary permissions for reading/creating counters.
+3644 07:03:19 WARN  Sitecore has no necessary permissions for reading/creating counters.
+3644 07:03:19 WARN  Sitecore has no necessary permissions for reading/creating counters.
+3644 07:03:19 WARN  Sitecore has no necessary permissions for reading/creating counters.
+3644 07:03:19 WARN  Sitecore has no necessary permissions for reading/creating counters.
+3644 07:03:19 WARN  Sitecore has no necessary permissions for reading/creating counters.
+3644 07:03:20 INFO  Cache created: 'WebUtil.QueryStringCache' (max size: 19KB, running total: 399MB)
+3116 07:03:20 INFO  HttpModule is being initialized
+Heartbeat 07:03:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+ManagedPoolThread #2 07:03:21 INFO  Trying to load XML configuration /App_Config/Security/GlobalRoles.config
+4940 07:03:22 INFO  Scheduler - Adding agents
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.DatabaseAgent (interval: 00:10:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.DatabaseAgent (interval: 00:10:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.UrlAgent (interval: 00:15:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.TaskDatabaseAgent (interval: 00:10:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.CompactClientDataAgent (interval: 04:00:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.CleanupHistory (interval: 04:00:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.CleanupPublishQueue (interval: 04:00:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.CleanupEventQueue (interval: 04:00:00)
+4940 07:03:22 INFO  Scheduler - Skipping inactive agent: Sitecore.Tasks.HtmlCacheClearAgent
+4940 07:03:22 INFO  Scheduler - Skipping inactive agent: Sitecore.Tasks.PublishAgent
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.CleanupAgent (interval: 06:00:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.CounterDumpAgent (interval: 01:00:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.CloneNotificationsCleanupAgent (interval: 1.00:00:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.ContentSearch.Tasks.Optimize (interval: 01:00:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.CleanupFDAObsoleteMediaData (interval: 1.00:00:00)
+4940 07:03:22 INFO  Scheduler - Adding agent: Sitecore.Tasks.WebDAVOptionsCleanupAgent (interval: 1.00:00:00)
+4940 07:03:22 INFO  Scheduler - Agents added
+Heartbeat 07:03:27 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2064 07:03:29 INFO  HttpModule is being initialized
+Heartbeat 07:03:33 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:03:39 WARN  Sitecore has no necessary permissions for reading/creating counters.
+4964 07:03:39 INFO  AUDIT (sitecore\admin): Login
+4440 07:03:40 INFO  Cache created: 'SqlDataProvider - Prefetch data(master)' (max size: 20MB, running total: 419MB)
+4440 07:03:40 INFO  Loading Dictionary from database. Domain: 'Dictionary'. Language: 'en'.
+2064 07:03:43 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2064 07:03:43 WARN  Sitecore has no necessary permissions for reading/creating counters.
+2064 07:03:43 WARN  Sitecore has no necessary permissions for reading/creating counters.
+4136 07:03:43 WARN  Sitecore has no necessary permissions for reading/creating counters.
+4184 07:03:43 INFO  Layout file modified: C:\Source\Sitecore72\Main\VillageCinemas.Sitecore72\Sandbox\Website\layouts\debug
+3116 07:03:45 INFO  HttpModule is being initialized
+4440 07:03:45 INFO  HttpModule is being initialized
+2064 07:03:45 INFO  HttpModule is being initialized
+Heartbeat 07:03:45 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:03:51 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:03:57 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:04:03 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:04:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:04:15 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:04:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:04:27 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:04:33 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:04:39 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:04:45 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:04:51 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:04:57 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:05:03 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:05:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:05:15 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:05:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:05:27 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:05:33 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:05:39 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:05:45 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:05:51 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:05:57 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:06:03 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:06:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:06:15 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:06:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:06:27 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:06:33 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:06:39 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:06:45 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:06:51 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:06:57 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:07:03 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:07:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:07:15 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:07:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:07:27 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:07:33 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:07:39 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:07:45 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:07:51 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:07:57 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:08:03 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:08:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:08:15 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:08:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+ManagedPoolThread #7 07:08:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+ManagedPoolThread #7 07:08:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+ManagedPoolThread #7 07:08:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:08:27 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:08:33 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:08:39 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:08:45 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:08:51 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:08:57 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:09:03 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:09:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:09:15 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:09:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:09:27 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:09:33 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:09:39 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:09:45 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:09:51 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:09:57 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:10:03 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:10:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:10:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:10:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:10:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:10:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:10:40 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:10:46 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:10:52 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:10:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:11:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:11:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:11:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:11:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:11:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:11:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:11:40 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:11:46 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:11:52 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:11:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:12:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:12:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:12:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:12:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:12:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:12:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:12:40 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:12:46 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:12:52 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:12:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:10 INFO  Health.PrivateBytes: 0
+Heartbeat 07:13:10 INFO  Health.CacheInstances: 91
+Heartbeat 07:13:10 INFO  Health.CacheTotalCount: 21,121
+Heartbeat 07:13:10 INFO  Health.CacheTotalSize: 53,775,355
+Heartbeat 07:13:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+ManagedPoolThread #9 07:13:17 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #9 07:13:17 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #9 07:13:17 INFO  Examining schedules (count: 0)
+ManagedPoolThread #9 07:13:17 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #12 07:13:17 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #12 07:13:17 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #12 07:13:17 INFO  Examining schedules (count: 1)
+ManagedPoolThread #12 07:13:17 INFO  Starting: __Task Schedule
+ManagedPoolThread #12 07:13:17 INFO  Ended: __Task Schedule
+ManagedPoolThread #12 07:13:17 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #18 07:13:17 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #18 07:13:17 INFO  Processing tasks (count: 0)
+ManagedPoolThread #18 07:13:17 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 07:13:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:40 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:46 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:52 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:13:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:14:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:14:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:14:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:14:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:14:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:14:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:14:40 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:14:46 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:14:52 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:14:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:15:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:15:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:15:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:15:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:15:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:15:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:15:40 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:15:46 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:15:52 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:15:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:16:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:16:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:16:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:16:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:16:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:16:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:16:40 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:16:46 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:16:52 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:16:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:17:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:17:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:17:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:17:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:17:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:17:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:17:40 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:17:46 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:17:52 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:17:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:18:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:18:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:18:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+ManagedPoolThread #17 07:18:18 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #17 07:18:18 INFO  Scheduling.UrlAgent started. Url: http://dev.sitecore72.local/sitecore/service/keepalive.aspx
+ManagedPoolThread #17 07:18:18 INFO  Scheduling.UrlAgent done (received: 561 bytes)
+ManagedPoolThread #17 07:18:18 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+Heartbeat 07:18:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:18:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:18:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:18:41 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:18:47 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:18:53 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:18:59 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:19:05 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:19:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:19:17 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:19:23 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:19:29 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:19:35 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:19:41 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:19:47 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:19:53 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:19:59 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:20:05 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:20:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:20:17 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:20:23 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:20:29 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:20:35 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:20:41 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:20:48 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:20:54 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:21:00 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:21:06 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:21:12 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:21:18 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:21:24 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:21:30 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:21:36 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:21:42 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:21:48 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:21:54 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:22:00 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:22:06 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:22:12 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:22:18 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:22:24 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:22:30 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:22:36 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:22:42 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:22:48 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:22:54 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:23:01 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:23:07 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:23:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:23:11 INFO  Health.PrivateBytes: 0
+Heartbeat 07:23:11 INFO  Health.CacheInstances: 91
+Heartbeat 07:23:11 INFO  Health.CacheTotalCount: 21,142
+Heartbeat 07:23:11 INFO  Health.CacheTotalSize: 53,825,735
+Heartbeat 07:23:13 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:23:19 WARN  Sitecore has no necessary permissions for reading/creating counters.
+ManagedPoolThread #5 07:23:19 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #5 07:23:19 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #5 07:23:19 INFO  Examining schedules (count: 0)
+ManagedPoolThread #5 07:23:19 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #4 07:23:19 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #4 07:23:19 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #4 07:23:19 INFO  Examining schedules (count: 1)
+ManagedPoolThread #4 07:23:19 INFO  Starting: __Task Schedule
+ManagedPoolThread #4 07:23:19 INFO  Ended: __Task Schedule
+ManagedPoolThread #4 07:23:19 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #6 07:23:19 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #6 07:23:19 INFO  Processing tasks (count: 0)
+ManagedPoolThread #6 07:23:19 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 07:23:25 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:23:31 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:23:37 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:23:43 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:23:49 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:23:55 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:24:01 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:24:07 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:24:13 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:24:19 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:24:25 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:24:31 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:24:37 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:24:43 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:24:50 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:24:56 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:25:02 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:25:08 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:25:14 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:25:20 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:25:26 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:25:32 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:25:38 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:25:44 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:25:50 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:25:56 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:26:02 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:26:08 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:26:14 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:26:20 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:26:26 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:26:32 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:26:38 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:26:44 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:26:50 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:26:56 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:27:02 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:27:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:27:15 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:27:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:27:27 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:27:33 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:27:39 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:27:45 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:27:51 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:27:57 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:28:03 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:28:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:28:15 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:28:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:28:27 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:28:33 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:28:39 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:28:45 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:28:51 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:28:57 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:29:03 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:29:09 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:29:15 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:29:21 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:29:27 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:29:33 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:29:39 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:29:45 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:29:51 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:29:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:30:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:30:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:30:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:30:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:30:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:30:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:30:40 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:30:46 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:30:52 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:30:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:31:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:31:10 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:31:16 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:31:22 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:31:28 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:31:34 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:31:40 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:31:46 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:31:52 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:31:58 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:32:04 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:32:11 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:32:17 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:32:23 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:32:29 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:32:35 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:32:41 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:32:47 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:32:53 WARN  Sitecore has no necessary permissions for reading/creating counters.
+5004 07:32:54 INFO  **************************************************
+5004 07:32:54 WARN  Sitecore shutting down
+5004 07:32:54 WARN  Shutdown message: Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Heartbeat 07:32:59 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:33:05 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:33:12 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:33:12 INFO  Health.PrivateBytes: 0
+Heartbeat 07:33:12 INFO  Health.CacheInstances: 91
+Heartbeat 07:33:12 INFO  Health.CacheTotalCount: 21,148
+Heartbeat 07:33:12 INFO  Health.CacheTotalSize: 53,826,339
+Heartbeat 07:33:12 WARN  Sitecore has no necessary permissions for reading/creating counters.
+Heartbeat 07:33:18 WARN  Sitecore has no necessary permissions for reading/creating counters.
+ManagedPoolThread #2 07:33:22 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #2 07:33:22 INFO  Scheduling.DatabaseAgent started. Database: core
+ManagedPoolThread #2 07:33:22 INFO  Examining schedules (count: 0)
+ManagedPoolThread #2 07:33:22 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: )
+ManagedPoolThread #19 07:33:22 INFO  Job started: Sitecore.Tasks.DatabaseAgent
+ManagedPoolThread #19 07:33:22 INFO  Scheduling.DatabaseAgent started. Database: master
+ManagedPoolThread #19 07:33:22 INFO  Examining schedules (count: 1)
+ManagedPoolThread #19 07:33:22 INFO  Starting: __Task Schedule
+ManagedPoolThread #19 07:33:22 INFO  Ended: __Task Schedule
+ManagedPoolThread #19 07:33:22 INFO  Job ended: Sitecore.Tasks.DatabaseAgent (units processed: 1)
+ManagedPoolThread #1 07:33:22 INFO  Job started: Sitecore.Tasks.UrlAgent
+ManagedPoolThread #1 07:33:22 INFO  Scheduling.UrlAgent started. Url: http://dev.sitecore72.local/sitecore/service/keepalive.aspx
+ManagedPoolThread #1 07:33:23 INFO  Scheduling.UrlAgent done (received: 561 bytes)
+ManagedPoolThread #1 07:33:23 INFO  Job ended: Sitecore.Tasks.UrlAgent (units processed: )
+ManagedPoolThread #3 07:33:23 INFO  Job started: Sitecore.Tasks.TaskDatabaseAgent
+ManagedPoolThread #3 07:33:23 INFO  Processing tasks (count: 0)
+ManagedPoolThread #3 07:33:23 INFO  Job ended: Sitecore.Tasks.TaskDatabaseAgent (units processed: )
+Heartbeat 07:33:24 WARN  Sitecore has no necessary permissions for reading/creating counters.

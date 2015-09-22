@@ -1,0 +1,208 @@
+﻿@using Sitecore.Data
+@using Sitecore.Mvc
+@using Sitecore.Web.UI.Controls.Common.ListBoxes
+@using Sitecore.Web.UI.Controls.Common.Renderings
+@using Sitecore.Web.UI.Controls.Common.TextBoxes
+@using Sitecore.Web.UI.Controls.Common.TextAreas
+@using Sitecore.Web.UI.Controls.Data.SearchDataSources
+@model Sitecore.Mvc.Presentation.RenderingModel
+<p>
+  SearchDataSource supports server-side pagination.
+</p>
+@{
+  var rendering = new ID("{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}").ToString();
+}
+@Html.Sitecore().Controls().TextBox("SearchText", new {Text = "sample"})
+@Html.Sitecore().Controls().SearchDataSource("SearchDataSource1", new { Text = "{Binding SearchText.text}", ShowHiddenItems=true })<br/>
+@Html.Sitecore().Controls().ListBox("ListBox1", new { Items = "{Binding SearchDataSource1.items}" })
+
+<pre>
+  &#64;Html.Sitecore().Controls().TextBox("SearchText", new {Text = "sample"})
+  &#64;Html.Sitecore().Controls().SearchDataSource("SearchDataSource1", new { Text = "{Binding SearchText.text}" })<br/>
+  &#64;Html.Sitecore().Controls().ListBox("ListBox1", new { Items = "{Binding SearchDataSource1.items}" })
+ </pre>
+
+<p>Setting the language to the <i>"$context_language"</i> value will return you data for the currently selected language</p>
+@Html.Sitecore().Controls().SearchDataSource("SearchDataSource2", new { SearchConfigItemId = "{3B74E413-D556-4CEC-A831-B3229C4C848A}", PageSize = 20, Language = "$context_language" })<br/>
+@Html.Sitecore().Controls().ListBox("ListBox2", new { Items = "{Binding SearchDataSource2.items}" })
+
+<pre>
+&#64;Html.Sitecore().Controls().SearchDataSource("SearchDataSource2", new { SearchConfigItemId = "{3B74E413-D556-4CEC-A831-B3229C4C848A}", PageSize = 20, Language = "$context_language" })<br/>
+&#64;Html.Sitecore().Controls().ListBox("ListBox2", new { Items = "{Binding SearchDataSource2.items}" })
+</pre>
+
+<p>
+  You can also set up the formatting option in the SearchConfigItem
+</p>
+
+@Html.Sitecore().Controls().SearchDataSource("SearchDataSource3", new { SearchConfigItemId = "{57AC916A-7162-41DA-B6A5-FC053254387B}", PageSize = 20, Language = "$context_language", Fields="__Created", Formatting="$convert_date_to_friendly_format", Database="$context_contentdatabase" })
+@Html.Sitecore().Controls().Rendering(this.Html, rendering, "ListControl", "{CD471110-0BD6-4925-8107-A10BB27880D9}", new{ Items="{Binding SearchDataSource3.items}"})
+
+<pre>
+&#64;Html.Sitecore().Controls().SearchDataSource("SearchDataSource3", new { SearchConfigItemId = "{57AC916A-7162-41DA-B6A5-FC053254387B}", PageSize = 20, Language = "$context_language", Fields="__Created", Formatting="$convert_date_to_friendly_format", Database="$context_contentdatabase" })
+&#64;Html.Sitecore().Controls().Rendering(this.Html, rendering, "ListControl", "{CD471110-0BD6-4925-8107-A10BB27880D9}", new{ Items="{Binding SearchDataSource3.items}"})
+</pre>
+
+<p>
+  <b>An example of data fields</b>
+</p>
+<pre>
+$database: "core"
+$displayName: "Home"
+$fields: Array[61]
+$hasChildren: true
+$icon: "/temp/IconCache/Applications/16x16/document.png"
+$language: ""
+$mediaurl: "/temp/IconCache/Applications/48x48/document.png"
+$path: "/sitecore/templates/Sitecore Client/Home"
+$templateId: "{AB86861A-6030-46C5-B394-E8F99E8B87DB}"
+$templateName: "Template"
+$url: "~/link.aspx?_id=76036F5ECBCE46D1AF0A4143F9B557AA&amp;_z=z"
+$version: 0
+__Archive date: ""
+__Base template: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+__Boost: ""
+__Boosting Rules: ""
+__Bucket Parent Reference: ""
+__Bucketable: ""
+__Context Menu: ""
+__Created: "20070125T151100"
+__Created by: "sitecore\admin"
+__Default Bucket Query: ""
+__Default View: ""
+__Default workflow: ""
+__Display name: ""
+__Editor: ""
+__Editors: "{CFABCE9D-D34A-4990-8113-FCCF583A16C4}|{30723E7D-918F-48D9-8A29-97CBE9951B4B}"
+__Enabled Views: ""
+__Facets: ""
+__Help link: ""
+__Hidden: ""
+__Hide version: ""
+__Icon: "Applications/16x16/document.png"
+__Insert Rules: ""
+__Is Bucket: ""
+__Lock: ""
+__Long description: ""
+__Masters: ""
+__Never publish: ""
+__Originator: ""
+__Owner: "sitecore\admin"
+__Persistent Bucket Filter: ""
+__Publish: ""
+__Publishing groups: ""
+__Quick Action Bar Validation Rules: ""
+__Quick Actions: ""
+__Read Only: ""
+__Reminder date: ""
+__Reminder recipients: ""
+__Reminder text: ""
+__Renderers: ""
+__Renderings: "<r><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{A5BCAF84-771D-49FA-9A06-FB060D132908}"/></r>"
+__Revision: "26d668c2-e06a-48ed-b16c-d3e0b3e8406d"
+__Ribbon: ""
+__Security: ""
+__Semantics: ""
+__Short description: ""
+__Should Not Organize In Bucket: ""
+__Skin: ""
+__Sortorder: ""
+__Standard values: ""
+__Style: ""
+__Subitems Sorting: ""
+__Unpublish: ""
+__Updated: "20070307T121025"
+__Updated by: "sitecore\Admin"
+__Valid from: ""
+__Valid to: ""
+__Validate Button Validation Rules: ""
+__Validator Bar Validation Rules: ""
+__Workflow: ""
+__Workflow Validation Rules: ""
+__Workflow state: ""
+itemId: "{76036F5E-CBCE-46D1-AF0A-4143F9B557AA}"
+itemName: "Home"
+itemUri: data.ItemUri
+</pre>
+
+<p>
+  <b>An example of sort fields</b>
+</p>
+<pre>
+__Archive date: ""
+__Boost: ""
+__Boosting Rules: ""
+__Bucket Parent Reference: ""
+__Bucketable: ""
+__Context Menu: ""
+__Created by: "sitecore\admin"
+__Created: "20100806T164241:634167097615904558"
+__Default Bucket Query: ""
+__Default View: ""
+__Default workflow: ""
+__Display name: ""
+__Editor: ""
+__Editors: ""
+__Enabled Views: ""
+__Facets: ""
+__Help link: ""
+__Hidden: ""
+__Hide version: ""
+__Icon: ""
+__Insert Rules: ""
+__Is Bucket: ""
+__Lock: ""
+__Long description: "This is the root of the Sitecore content tree."
+__Masters: ""
+__Never publish: ""
+__Originator: ""
+__Owner: "sitecore\admin"
+__Persistent Bucket Filter: ""
+__Publish: ""
+__Publishing groups: ""
+__Quick Action Bar Validation Rules: ""
+__Quick Actions: ""
+__Read Only: ""
+__Reminder date: ""
+__Reminder recipients: ""
+__Reminder text: ""
+__Renderers: ""
+__Renderings: ""
+__Revision: "70963bfa-87af-494d-a745-54e497a9918f"
+__Ribbon: ""
+__Security: "ar|sitecore\Sitecore Client Developing|pe|+item:write|+item:rename|+item:delete|+item:create|pd|+item:write|+item:rename|+item:delete|+item:create|ar|sitecore\Sitecore Client Users|pe|+item:read|pd|+item:read|"
+__Semantics: ""
+__Short description: "This is the root of the Sitecore content tree."
+__Should Not Organize In Bucket: ""
+__Skin: ""
+__Sortorder: ""
+__Standard values: ""
+__Style: ""
+__Subitems Sorting: ""
+__Unpublish: ""
+__Updated by: "sitecore\admin"
+__Updated: "20100806T164507:634167099074568847"
+__Valid from: ""
+__Valid to: ""
+__Validate Button Validation Rules: ""
+__Validator Bar Validation Rules: ""
+__Workflow state: "" 
+__Workflow Validation Rules: ""
+__Workflow: ""
+Database: "core"
+DisplayName: "sitecore"
+Fields: Object
+HasChildren: true
+Icon: "/temp/IconCache/Applications/32x32/Document.png"
+ID: "{11111111-1111-1111-1111-111111111111}"
+Language: "en"
+LongID: "/{11111111-1111-1111-1111-111111111111}"
+MediaUrl: "/temp/IconCache/Applications/48x48/Document.png"
+Name: "sitecore"
+Path: "/sitecore"
+Template: "System/Root"
+TemplateId: "{C6576836-910C-4A3D-BA03-C277DBD3B827}"
+TemplateName: "Root"
+Url: "~/link.aspx?_id=11111111111111111111111111111111&amp;_z=z"
+Version: 1
+</pre>

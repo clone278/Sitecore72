@@ -1,0 +1,36 @@
+﻿@using Sitecore.Data
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+@using Sitecore.Web.UI.Controls.Common.Renderings
+@{
+  var rendering = new ID("{8A48B57B-D8CD-4AF0-A0ED-0C5D119CCEAC}").ToString();
+}       
+
+<h3>SilverlightFrame component</h3>
+<p>
+  The SilverlightFrame component initializes a Silverlight object, providing the possibility to set at design time all the Silvelright object properties.
+</p>
+<p>
+  
+   @this.Html.Sitecore().Controls().Rendering(this.Html, rendering, "SilverlightFrame1", "", new
+  {
+    AppName = "Executive Dashboard",
+    Height = "600px",
+    Width = "100%",
+    InitParams = "Culture=en-us,SingleCampaignId=,SingleCampaignName=,SingleTrafficType=,CampaignCategory=,DefaultSettingsURL=",
+    ScriptFile = "/sitecore/shell/Applications/Reports/Dashboard/Scripts/Reports.js",
+    Source ="/sitecore/shell/ClientBin/Sitecore.Shell.Dashboard.xap",    
+  })
+</p>
+
+<pre>
+&#64;Html.Sitecore().Controls().SilverlightFrame("SilverlightFrame1", new
+{
+  AppName = "Executive Dashboard",
+  Height = "600px",
+  Width = "100%",
+  InitParams = "Culture=en-us,SingleCampaignId=,SingleCampaignName=,SingleTrafficType=,CampaignCategory=,DefaultSettingsURL=",
+  ScriptFile = "/sitecore/shell/Applications/Reports/Dashboard/Scripts/Reports.js",
+  Source ="/sitecore/shell/ClientBin/Sitecore.Shell.Dashboard.xap",    
+})
+</pre>
