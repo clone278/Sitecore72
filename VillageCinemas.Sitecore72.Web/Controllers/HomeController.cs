@@ -22,7 +22,7 @@ namespace VillageCinemas.Sitecore72.Web.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.3";
+            ViewBag.Message = "Your contact page.4";
 
             return View();
         }
